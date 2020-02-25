@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(20, 22, 23);
+  color: linen;
+}
+
+.body-container {
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  margin-left: 17em;
+  margin-right: 17em;
+}
+
+.brand-typeface {
+  letter-spacing: 0.05em;
+  margin-left: 0.3em;
+  font-size: 1.8em;
+  font-family: "Fira-Sans";
+}
+
+.navbar {
+  background: rgb(30, 30, 30) !important;
+  top: 0;
+  padding-left: 20em;
+  padding-right: 20em;
+  margin-bottom: -0.5em;
+}
+
+.navbar-hr {
+  border-top: 1px solid linen;
+}
+
+.landing-text {
+  font-family: "Arial";
+  font-size: 1.7em;
+}
+
+.landing-video {
+  width: 37vw;
+  height: 45vh;
+}
+
+.cringe-bar {
+  margin-top: 2em;
+}
+
+.landing-logos {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  margin-top: 4vh;
+  width: 5em;
+  height: 4em;
+}
+
+.landing-logos:hover {
+  opacity: 0.5;
+}
+
+.cringe-bar-header {
+  font-weight: 900;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.cringe-bar-subheader {
+  color: rgba(100, 100, 100, 1);
+}
+
+.cringe-bar-icons {
+  font-size: 10rem;
+  text-align: center;
+}
+
+.cringe-bar-icons--orange {
+  color: orange;
+}
+
+.cringe-bar-icons--purple {
+  color: purple;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 1em;
+  color: rgba(100, 100, 100, 1);
+  font-size: 0.8em;
+}
+.modal-dismiss--styling {
+  margin-left: auto;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  padding-right: 1.5em;
+}
+
+.modal-body--text--styles {
+  color: linen;
+  font-size: 0.8em;
+}
+
+.modal-body--text--line {
+  margin-bottom: 0.2em;
+}
+
+.modal-content--box--styles {
+  background-color: rgb(30, 30, 30);
+  border-radius: 2em;
+  margin-top: 10em;
+  padding: 0.7em 0.7em 1.4em 0.7em;
+}
+
+.modal-footer--styles {
+  border: none;
+}
