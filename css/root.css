@@ -30,7 +30,7 @@ body {
 }
 
 .landing-text {
-  font-family: "Arial";
+  font-family: "Roboto";
   font-size: 1.7em;
 }
 
@@ -55,6 +55,20 @@ body {
 
 .landing-logos:hover {
   opacity: 0.5;
+}
+
+.bozo-text {
+  font-size: 0.85em;
+  font-style: italic;
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: 'Roboto';
+  color: white;
+}
+.bozo-text-carat {
+  font-weight: 900;
+  font-family: 'Arial';
+  color: orange;
 }
 
 .cringe-bar-header {
@@ -97,6 +111,7 @@ body {
 .modal-body--text--styles {
   color: linen;
   font-size: 0.8em;
+  text-align: left;
 }
 
 .modal-body--text--line {

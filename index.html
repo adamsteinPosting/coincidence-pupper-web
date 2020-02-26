@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -46,10 +46,11 @@
             your system, crash any webpages, or ever fail to dig up some hidden gems.
             <div class="container">
               <div class="row">
-                <div class="col-6">
+                <div class="col-6 mx-auto text-center">
                   <!-- Button trigger modal -->
                   <img src="./media/firefox-logo.png" class="landing-logos" data-toggle="modal"
                     data-target="#firefox-modal" />
+                    <p class="bozo-text"><span class="bozo-text-carat">^</span><br>Have Firefox? Click me.</p>
                   <!-- Firefox Modal -->
                   <div class="modal fade" id="firefox-modal" tabindex="-1" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -71,9 +72,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 mx-auto text-center">
                   <img src="./media/tampermonkey-logo.png" class="landing-logos" data-toggle="modal"
                     data-target="#tampermonkey-modal" />
+                    <p class="bozo-text"><span class="bozo-text-carat">^</span><br>Not on Firefox? Click me instead.</p>
                   <!-- tampermonkey Modal -->
                   <div class="modal fade" id="tampermonkey-modal" tabindex="-1" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -97,7 +99,6 @@
           <div class="col-6">
             <video class="landing-video" controls autoplay muted>
               <source src="media/bumper-video.mp4" type="video/mp4">
-              <source src="movie.ogg" type="video/ogg">
               Your browser does not support the video tag.
             </video>
           </div>
