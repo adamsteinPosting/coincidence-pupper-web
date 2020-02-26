@@ -1,0 +1,44 @@
+.landing-text {
+  font-family: "Roboto";
+  font-size: 1.8em;
+  width: 40%;
+  line-height: 1.4em;
+  color: orange;
+}
+
+.landing-video {
+  width: 37vw;
+  height: 45vh;
+}
+
+.landing-logos {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  margin-top: 4vh;
+  max-width: 5em;
+  max-height: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-logos:hover {
+  opacity: 0.5;
+}
+
+.bozo-text {
+  position: relative;
+  font-size: 0.85em;
+  font-style: italic;
+  margin-top: 0.5em;
+  text-align: center;
+  font-family: "Roboto";
+  color: white;
+}
+
+.bozo-text-carat {
+  font-weight: 900;
+  font-family: "Arial";
+  color: orange;
+}

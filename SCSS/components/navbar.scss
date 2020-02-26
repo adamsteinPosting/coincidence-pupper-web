@@ -1,0 +1,26 @@
+.brand-typeface {
+  letter-spacing: 0.05em;
+  margin-left: 0.3em;
+  font-size: 2em;
+  font-family: "Fira-Sans";
+  color: orange;
+  text-decoration: none; /* no underline */
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  background: rgb(30, 30, 30) !important;
+}
+
+.navbar-hr {
+  margin-top: 0;
+  border-top: 2px solid orange;
+  width: 100%;
+}
+
+.navbar-content {
+  padding-left: 20em;
+  padding-right: 20em;
+  padding-bottom: 0.3em;
+}

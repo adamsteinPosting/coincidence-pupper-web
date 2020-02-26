@@ -1,0 +1,119 @@
+@mixin font-smoothing($value: antialiased) {
+  @if $value == antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } @else {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+  }
+}
+
+@mixin box-shadow($shadows...) {
+  -webkit-box-shadow: $shadows;
+  -moz-box-shadow: $shadows;
+  box-shadow: $shadows;
+}
+
+@mixin rounded($radius: 0.5em) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin filter($value) {
+  -o-filter: $value;
+  -ms-filter: $value;
+  -webkit-filter: $value;
+  -moz-filter: $value;
+  filter: $value;
+}
+
+@mixin opacity($value: 0.5) {
+  opacity: $value;
+  filter: alpha(opacity= $value * 100);
+  transform: scale(1); /* Standard Property */
+  transform-origin: 0 0;  /* Standard Property */
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin transition($value) {
+  -webkit-transition: $value;
+  transition: $value;
+}
+
+@mixin transform($value) {
+  -o-transform: $value;
+  -ms-transform: $value;
+  -webkit-transform: $value;
+  transform: $value;
+}
+
+@mixin transform-origin($value) {
+  -o-transform-origin: $value;
+  -ms-transform-origin: $value;
+  -webkit-transform-origin: $value;
+  transform-origin: $value;
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+@mixin animation-delay($value) {
+  -o-animation: $value;
+  -moz-animation: $value;
+  -webkit-animation: $value;
+  animation: $value;
+}
+
+@mixin linear-gradient($angle, $gradient1, $gradient2) {
+  background-color: $gradient2; /* Fallback Color */
+  background-image: -webkit-gradient(
+    linear,
+    $angle,
+    from($gradient1),
+    to($gradient2)
+  ); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(
+    $angle,
+    $gradient1,
+    $gradient2
+  ); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(
+    $angle,
+    $gradient1,
+    $gradient2
+  ); /* FF3.6 */
+  background-image: -ms-linear-gradient(
+    $angle,
+    $gradient1,
+    $gradient2
+  ); /* IE10 */
+  background-image: -o-linear-gradient(
+    $angle,
+    $gradient1,
+    $gradient2
+  ); /* Opera 11.10+ */
+  background-image: linear-gradient($angle, $gradient1, $gradient2);
+}

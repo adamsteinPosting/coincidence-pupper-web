@@ -1,0 +1,38 @@
+.cringebar {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.cringebar-header {
+  font-weight: 900;
+  margin-bottom: 0em;
+  text-align: center;
+  color: yellow;
+}
+
+.cringebar-subheader {
+  color: $orange;
+  max-width: 15vw;
+}
+
+.cringebar-icons {
+  font-size: 10rem;
+  text-align: center;
+}
+
+.cringebar-icons--orange {
+  color: orange;
+}
+
+.cringebar-icons--purple {
+  color: purple;
+}
+
+.cringbar-icon {
+  height: 15vh;
+  width: 10vw;
+}
