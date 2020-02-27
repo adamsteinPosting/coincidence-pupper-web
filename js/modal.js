@@ -7,7 +7,7 @@ const modalTemplates = [
           <p class="modal-body--text--line">1. Navigate to <a
               href="https://github.com/adamsteinPosting/n-c/releases">this link.</a></p>
           <p class="modal-body--text--line">2. Under "assets", right click
-            "coincidence_pupper-0.6.2-fx.xpi", or a file similarly named.</p>
+            "coincidence_pupper-0.6.3-fx.xpi", or a file similarly named.</p>
           <p class="modal-body--text--line">3. Click "Save Link As...".</p>
           <p class="modal-body--text--line">4. Navigate to your download folder, and drag the file to a
             Firefox window.</p>
