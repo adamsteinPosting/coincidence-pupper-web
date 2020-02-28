@@ -48,3 +48,17 @@
     margin-left: -50em;
     padding-right: 50em;
 }
+
+.modal-drop {
+  @include animation(fadein 0.5s, modal-drop 0.5s);
+}
+
+@include keyframes(modal-drop) {
+  0% {
+    @include transform(translateY(-100%))
+  }
+  100% {
+    @include transform(translateY(0%))
+  }
+}
+

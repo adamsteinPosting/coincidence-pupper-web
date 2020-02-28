@@ -72,7 +72,7 @@
   transform-origin: $value;
 }
 
-@mixin animation($str) {
+@mixin animation($str...) {
   -webkit-animation: #{$str};
   -moz-animation: #{$str};
   -ms-animation: #{$str};
